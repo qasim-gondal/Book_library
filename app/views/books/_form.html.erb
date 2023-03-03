@@ -11,25 +11,24 @@
     </div>
   <% end %>
 
-  <div>
+
     <%= form.label :title, style: "display: block" %>
     <%= form.text_field :title %>
-  </div>
+  
 
-  <div>
+
     <%= form.label :description, style: "display: block" %>
     <%= form.text_area :description %>
-  </div>
+  
 
-  <div>
     <%= form.label :author, style: "display: block" %>
     <%= form.text_field :author %>
-  </div><br>
-  <div>
+  <br>
+
   <%= form.label :image%>
   <%=form.file_field :image%>
-  </div>
-  <div>
+  
+
     <%= form.submit %>
-  </div>
+  
 <% end %>
