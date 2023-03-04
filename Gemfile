@@ -17,6 +17,8 @@ gem 'jquery-rails','~> 4.4'
 #pic uploader
 gem 'carrierwave'
 gem 'paperclip'
+#authantication
+gem "devise"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
